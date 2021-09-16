@@ -17,6 +17,9 @@ namespace Exersise_1
             InitializeComponent();
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add($"{textBox1.Text} + {textBox2.Text} = {int.Parse(textBox1.Text) + int.Parse(textBox2.Text)}");
+        }
     }
 }
