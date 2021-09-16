@@ -21,5 +21,10 @@ namespace Exersise_1
         {
             listBox1.Items.Add($"{textBox1.Text} + {textBox2.Text} = {int.Parse(textBox1.Text) + int.Parse(textBox2.Text)}");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add($"{textBox1.Text} - {textBox2.Text} = {int.Parse(textBox1.Text) - int.Parse(textBox2.Text)}");
+        }
     }
 }
